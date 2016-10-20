@@ -21,9 +21,9 @@ echo $_product->getName();
 echo $_product->getShortDescription();
 // similary this prints the short Description of products.
 
-// Similarly we can print all the attributes of a certain product, 
+/* Similarly we can print all the attributes of a certain product, 
 in case if you dont know attribute code then refer magento admin backend 
-(catalog->attribute->manage attributes then search for the attribute code you are looking for.
+(catalog->attribute->manage attributes then search for the attribute code you are looking for. */
 
 ```
 #### In case if you are looking for collection of more than one product, 
