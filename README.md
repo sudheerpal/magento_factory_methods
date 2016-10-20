@@ -12,10 +12,18 @@ Magento knows every ecommerce requirement and thus provides a very easy solution
 
 ```php
 
-
- $_products = Mage::getModel('catalog/product')->load($_productID)
+ $_product = Mage::getModel('catalog/product')->load($_productID);
 // loads an obejct with all properties of a product with given productID.
 
+echo $_product->getName();
+//prints the name of the product.
 
+echo $_product->getShortDescription();
+// similary this prints the short Description of products.
+
+// Similarly we can print all the attributes of a certain product, 
+in case if you dont know attribute code then refer magento admin backend 
+(catalog->attribute->manage attributes then search for the attribute code you are looking for.
 
 ```
+#### In case if you are looking for collection of more than one product, 
