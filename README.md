@@ -10,6 +10,6 @@ Magento knows every ecommerce requirement and thus provides a very easy solution
 Have a look to below code which seems to be self explanatory.
 
 
-$_products = Mage::getModel('catalog/product')->load($_productID)
+- $_products = Mage::getModel('catalog/product')->load($_productID)
 // loads an obejct with all properties of a product with given productID.
 
